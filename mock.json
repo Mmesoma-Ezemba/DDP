@@ -1,0 +1,225 @@
+{
+  "dashboardStats": [
+    {
+      "label": "VAULTS CREATED",
+      "value": "12",
+      "description": "ACTIVE DIGITAL WILLS",
+      "intent": "positive",
+      "icon": "gear",
+      "direction": "up"
+    },
+    {
+      "label": "ASSETS SECURED",
+      "value": "2.4M",
+      "description": "ETH & NFT HOLDINGS",
+      "intent": "positive",
+      "icon": "proccesor",
+      "direction": "up"
+    },
+    {
+      "label": "INACTIVITY DETECTED",
+      "value": "0",
+      "description": "ALL SYSTEMS OPERATIONAL",
+      "intent": "neutral",
+      "icon": "boom",
+      "tag": "No triggers 🔥"
+    }
+  ],
+  "chartData": {
+    "week": [
+      {
+        "date": "06/07",
+        "assetsSecured": 50000,
+        "vaultsCreated": 3,
+        "beneficiariesLinked": 5
+      },
+      {
+        "date": "07/07",
+        "assetsSecured": 250000,
+        "vaultsCreated": 4,
+        "beneficiariesLinked": 8
+      },
+      {
+        "date": "08/07",
+        "assetsSecured": 200000,
+        "vaultsCreated": 3,
+        "beneficiariesLinked": 6
+      },
+      {
+        "date": "09/07",
+        "assetsSecured": 280000,
+        "vaultsCreated": 5,
+        "beneficiariesLinked": 10
+      },
+      {
+        "date": "10/07",
+        "assetsSecured": 120000,
+        "vaultsCreated": 2,
+        "beneficiariesLinked": 3
+      },
+      {
+        "date": "11/07",
+        "assetsSecured": 180000,
+        "vaultsCreated": 4,
+        "beneficiariesLinked": 7
+      },
+      {
+        "date": "12/07",
+        "assetsSecured": 500000,
+        "vaultsCreated": 6,
+        "beneficiariesLinked": 12
+      },
+      {
+        "date": "13/07",
+        "assetsSecured": 130000,
+        "vaultsCreated": 3,
+        "beneficiariesLinked": 5
+      }
+    ],
+    "month": [
+      { "date": "Jan", "vaultsCreated": 8, "assetsSecured": 180000, "beneficiariesLinked": 15 },
+      { "date": "Feb", "vaultsCreated": 6, "assetsSecured": 120000, "beneficiariesLinked": 11 },
+      { "date": "Mar", "vaultsCreated": 10, "assetsSecured": 280000, "beneficiariesLinked": 20 },
+      { "date": "Apr", "vaultsCreated": 5, "assetsSecured": 160000, "beneficiariesLinked": 9 },
+      { "date": "May", "vaultsCreated": 12, "assetsSecured": 350000, "beneficiariesLinked": 25 },
+      { "date": "Jun", "vaultsCreated": 7, "assetsSecured": 90000, "beneficiariesLinked": 12 },
+      { "date": "Jul", "vaultsCreated": 11, "assetsSecured": 220000, "beneficiariesLinked": 18 },
+      { "date": "Aug", "vaultsCreated": 9, "assetsSecured": 170000, "beneficiariesLinked": 14 },
+      { "date": "Sep", "vaultsCreated": 10, "assetsSecured": 200000, "beneficiariesLinked": 16 },
+      { "date": "Oct", "vaultsCreated": 6, "assetsSecured": 140000, "beneficiariesLinked": 10 },
+      { "date": "Nov", "vaultsCreated": 13, "assetsSecured": 340000, "beneficiariesLinked": 22 },
+      { "date": "Dec", "vaultsCreated": 15, "assetsSecured": 420000, "beneficiariesLinked": 28 }
+    ],
+    "year": [
+      {
+        "date": "2020",
+        "vaultsCreated": 45,
+        "assetsSecured": 580000,
+        "beneficiariesLinked": 60
+      },
+      {
+        "date": "2021",
+        "vaultsCreated": 52,
+        "assetsSecured": 650000,
+        "beneficiariesLinked": 75
+      },
+      {
+        "date": "2022",
+        "vaultsCreated": 78,
+        "assetsSecured": 950000,
+        "beneficiariesLinked": 120
+      },
+      {
+        "date": "2023",
+        "vaultsCreated": 38,
+        "assetsSecured": 520000,
+        "beneficiariesLinked": 55
+      },
+      { "date": "2024", "vaultsCreated": 65, "assetsSecured": 820000, "beneficiariesLinked": 95 }
+    ]
+  },
+  "rebelsRanking": [
+    {
+      "id": 1,
+      "name": "VAULT CREATED",
+      "handle": "@YOUR_VAULT",
+      "streak": "5 MIN AGO ⚡",
+      "points": 148,
+      "avatar": "/avatars/user_krimson.png",
+      "featured": true,
+      "subtitle": "Primary digital will initialized"
+    },
+    {
+      "id": 2,
+      "name": "BENEFICIARY ADDED",
+      "handle": "@0x8b...4e2f",
+      "streak": "",
+      "points": 129,
+      "avatar": "/avatars/user_mati.png",
+      "subtitle": "Wallet linked successfully"
+    },
+    {
+      "id": 3,
+      "name": "ENCRYPTION VERIFIED",
+      "handle": "@AES-256",
+      "streak": "",
+      "points": 108,
+      "avatar": "/avatars/user_pek.png",
+      "subtitle": "All data secured with AES-256"
+    },
+    {
+      "id": 4,
+      "name": "HEARTBEAT DETECTED",
+      "handle": "@ACTIVE",
+      "streak": "",
+      "points": 64,
+      "avatar": "/avatars/user_joyboy.png",
+      "subtitle": "Last activity 2 hours ago"
+    }
+  ],
+  "securityStatus": [
+    {
+      "title": "WALLET CONNECTED",
+      "value": "0x8b...4e2f",
+      "status": "[ACTIVE]",
+      "variant": "success"
+    },
+    {
+      "title": "ENCRYPTION",
+      "value": "AES-256",
+      "status": "[ENABLED]",
+      "variant": "success"
+    },
+    {
+      "title": "BENEFICIARY SLOTS",
+      "value": "3/5",
+      "status": "[CONFIGURED]",
+      "variant": "warning"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "VAULT CREATED",
+      "message": "Your digital vault has been successfully created and linked to beneficiary.",
+      "timestamp": "2024-07-10T13:39:00Z",
+      "type": "success",
+      "read": false,
+      "priority": "medium"
+    },
+    {
+      "id": "notif-2",
+      "title": "INACTIVITY WARNING",
+      "message": "Heartbeat signal required to prevent vault trigger. Please sign in within 7 days.",
+      "timestamp": "2024-07-10T13:35:00Z",
+      "type": "info",
+      "read": false,
+      "priority": "low"
+    },
+    {
+      "id": "notif-3",
+      "title": "SYSTEM UPDATE",
+      "message": "Smart contract upgraded to v2.1 with enhanced security features.",
+      "timestamp": "2024-07-10T12:15:00Z",
+      "type": "info",
+      "read": true,
+      "priority": "medium"
+    },
+    {
+      "id": "notif-4",
+      "title": "ENCRYPTION ALERT",
+      "message": "All vault data has been encrypted with AES-256 and backup confirmed.",
+      "timestamp": "2024-07-10T11:45:00Z",
+      "type": "warning",
+      "read": true,
+      "priority": "high"
+    }
+  ],
+  "widgetData": {
+    "location": "Auto-detected",
+    "timezone": "UTC-3",
+    "temperature": "18°C",
+    "weather": "Partly Cloudy",
+    "date": "Wednesday, July 10th, 2025"
+  }
+}

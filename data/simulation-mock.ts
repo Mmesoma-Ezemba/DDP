@@ -1,0 +1,128 @@
+import type { SimulationScenario, Simulation } from "@/types/simulation"
+
+export const mockSimulationScenarios: SimulationScenario[] = [
+  {
+    id: "pollar-onboarding",
+    name: "Pollar Beneficiary Onboarding & Claim",
+    description: "Non-crypto beneficiary logs in via Google/Pollar and claims vault inheritance without keys",
+    icon: "🌟",
+    duration: "~1.5 min",
+    steps: 5,
+    recommended: true,
+  },
+  {
+    id: "quick-trigger",
+    name: "Quick Trigger Test",
+    description: "Fast simulation of vault trigger (1 minute)",
+    icon: "⚡",
+    duration: "~1 min",
+    steps: 5,
+    recommended: true,
+  },
+  {
+    id: "full-process",
+    name: "Complete Process",
+    description: "Full simulation with all steps (5 minutes)",
+    icon: "🔄",
+    duration: "~5 min",
+    steps: 10,
+    recommended: false,
+  },
+  {
+    id: "inactivity-90",
+    name: "90-Day Inactivity",
+    description: "Simulate 90 days of inactivity (accelerated)",
+    icon: "⏱️",
+    duration: "~2 min",
+    steps: 7,
+    recommended: false,
+  },
+  {
+    id: "multi-beneficiary",
+    name: "Multi-Beneficiary Release",
+    description: "Test vault with multiple beneficiaries",
+    icon: "👥",
+    duration: "~3 min",
+    steps: 8,
+    recommended: false,
+  },
+]
+
+export const mockSimulation: Simulation = {
+  id: "sim-001",
+  name: "Quick Trigger Test",
+  status: "pending",
+  vaultId: "0x8b4e2f9a1c3d5e7f",
+  vaultName: "Primary Legacy Vault",
+  createdAt: "2024-11-06T12:00:00Z",
+  currentStep: 0,
+  totalSteps: 5,
+  steps: [
+    {
+      id: "step-1",
+      title: "Initializing Simulation",
+      description: "Setting up test environment and loading vault data",
+      status: "pending",
+      duration: 5,
+      progress: 0,
+      details: [
+        "Loading vault configuration",
+        "Verifying smart contract",
+        "Checking beneficiaries",
+      ],
+    },
+    {
+      id: "step-2",
+      title: "Simulating Inactivity",
+      description: "Fast-forwarding time to trigger inactivity threshold",
+      status: "pending",
+      duration: 10,
+      progress: 0,
+      details: [
+        "Time acceleration: 1000x",
+        "Monitoring wallet activity",
+        "Threshold reached: 90 days",
+      ],
+    },
+    {
+      id: "step-3",
+      title: "Triggering Vault Release",
+      description: "Executing smart contract release function",
+      status: "pending",
+      duration: 15,
+      progress: 0,
+      details: [
+        "Calling contract.release()",
+        "Verifying conditions met",
+        "Processing transaction",
+      ],
+    },
+    {
+      id: "step-4",
+      title: "Decrypting Vault Data",
+      description: "Unlocking encrypted messages and files",
+      status: "pending",
+      duration: 8,
+      progress: 0,
+      details: [
+        "Decrypting AES-256 data",
+        "Preparing asset transfers",
+        "Generating access keys",
+      ],
+    },
+    {
+      id: "step-5",
+      title: "Notifying Beneficiaries",
+      description: "Sending notifications to all recipients",
+      status: "pending",
+      duration: 5,
+      progress: 0,
+      details: [
+        "Email notifications sent",
+        "On-chain events emitted",
+        "Access granted to beneficiaries",
+      ],
+    },
+  ],
+}
+
